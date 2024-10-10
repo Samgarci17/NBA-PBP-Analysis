@@ -15,7 +15,7 @@ A look through the play-by-play data from NBA playoffs years 1997-2024, looking 
 - [License](#license)
 
 ## Data
-The data used in this analysis was scraped from [Basketball Reference](https://www.basketball-reference.com/playoffs/series.html) using my Python script containing the BS4, request, and pandas modules. Some simple calculations were done on the play by play tables to track the largest lead of each game and the largest comeback. The data was stored as tuples in Pandas DataFrames where the first value is the lead or comeback and the second value is an abbreviation for the date and location the game took place *199905080ATL* for example, is the game on May 8th, 1999 in Atalanta.
+The data used in this analysis was scraped from [Basketball Reference](https://www.basketball-reference.com/playoffs/series.html) using my Python script containing the BS4, request, and pandas modules. Some simple calculations were done on the play by play tables to track the largest lead of each game and the largest comeback. The data was stored as tuples in Pandas DataFrames where the first value is the lead or comeback and the second value is an abbreviation for the date and location the game took place e.g.,(*199905080ATL* is the game on May 8th, 1999 in Atalanta).
 
 ## Tools and Libraries
 
