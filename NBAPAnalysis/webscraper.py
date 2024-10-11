@@ -124,8 +124,8 @@ def getSeries(playoff_urls):
             comeback, lead = getBoxscore(gameurl)
             
             game_name = link[:-5]
-            comeback_per_playoffs.append((comeback, game_name))
-            lead_per_playoffs.append((lead, game_name))
+            comeback_per_playoffs.append(int(comeback))
+            lead_per_playoffs.append(int(lead))
 
         if i%15 == 0:
             while len(comeback_per_playoffs) < 105:
@@ -137,6 +137,7 @@ def getSeries(playoff_urls):
             year -= 1
             lead_per_playoffs.clear()
             comeback_per_playoffs.clear()
+        print('finished playoff series')
             
 
 getSeries(getPlayoffSeries())
