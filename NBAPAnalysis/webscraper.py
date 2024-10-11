@@ -138,6 +138,7 @@ def getSeries(playoff_urls):
             lead_per_playoffs.clear()
             comeback_per_playoffs.clear()
         print('finished playoff series')
+    print("done")
             
 
 getSeries(getPlayoffSeries())
