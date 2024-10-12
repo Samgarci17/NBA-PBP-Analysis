@@ -23,11 +23,12 @@ The data used in this analysis was scraped from [Basketball Reference](https://w
 
 ## Analysis Process
 Explain the general steps of your analysis:
-1. Data cleaning and preprocessing - The only data cleaning necessary was handling missing values at the bottom of each column using the dropna() funtion
-2. Exploratory Data Analysis (EDA)
-3. Data visualization
-4. Statistical analysis or modeling
-5. Results interpretation
+1. Data cleaning and preprocessing - The data cleaning process consisted of handling missing values at the bottom of each data frame column
+2. Exploratory Data Analysis (EDA) - In order to find the seasons of interest that should be explored more deeply a plot was created for both the leads and comeback data frames.
+   These plots were created using the mean value of each year to visualize the trend of leads and comebacks over time. 
+4. Data visualization
+5. Statistical analysis or modeling
+6. Results interpretation
 
 
 ## Results
