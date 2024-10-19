@@ -3,16 +3,6 @@
 ## Overview
 A look through the play-by-play data from NBA playoffs years 1997-2024, looking at trends in leads and comebacks.
 
-## Table of Contents
-- [Project Overview](#overview)
-- [Data](#data)
-- [Tools and Libraries](#tools-and-libraries)
-- [Analysis Process](#analysis-process)
-- [Results](#results)
-- [How to Run](#how-to-run)
-- [Contributions](#contributions)
-- [License](#license)
-
 ## Data
 The data used in this analysis was scraped from [Basketball Reference](https://www.basketball-reference.com/playoffs/series.html) using my Python script containing the BS4, request, and pandas modules. Some simple calculations were done on the play-by-play tables to track the largest lead of each game and the largest comeback. The data was stored in Pandas DataFrames and then saved in CSV format using the Pandas to_csv function.
 
