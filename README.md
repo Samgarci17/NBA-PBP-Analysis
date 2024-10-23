@@ -16,8 +16,8 @@ Explain the general steps of your analysis:
 1. Data cleaning and preprocessing - The only step taken to clean and process the data was removing the missing values at the bottom of each data frame column.
 3. Exploratory Data Analysis (EDA) - To get a summary of the data descriptive statistics were calculated such as the mean, median, and standard deviation. All three descriptive statistics were found for the Leads data frame as well as the individual mean of each column. Another approach was taken for the comeback data frame, the number of games without a lead change was calculated to be used in further visualization.
 4. Data visualization - A plot was created for the lead and comeback data frames to identify seasons of interest that should be explored more deeply. The plot of the leads data frame plotted the mean of each column against each year. The plot from the comeback data frame plotted the average number of games without a lead change over each year. These two plots showed a general trend of leads increasing in size over the years while the number of games without a lead change was relatively constant. When analyzing individual seasons histograms were created for each of the seasons of interest to look at the skew and distribution of those seasons compared to the average.
-5. Statistical analysis or modeling - 
-6. Results interpretation
+5. Statistical analysis or modeling— Of the years selected for histograms, the two that stood out the most as significantly significant seasons were the 2016 and 2018 seasons. To test if these seasons are significant I used a one-sample T-test which produced the statistically significant result of T-statistic: 2.486945239867086, P-value: 0.014839514258574603 for the 2016 playoffs. Then the 2008 and 2011 seasons were tested as they were distinct years on the original mean summary plot and the 2011 playoffs produced T-statistic: -4.0049773273438305, P-value: 0.00013800162357397887.
+6. Results interpretation 
 
 
 ## Results
