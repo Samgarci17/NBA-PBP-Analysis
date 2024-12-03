@@ -25,7 +25,9 @@ Explain the general steps of your analysis:
 
 
 ## Results
-Summarize the key findings from your analysis. Include any visuals or links to relevant documents.
+This analysis of NBA playoffs play-by-play data (1997–2024) examines trends in game leads and comebacks. Data was scraped from Basketball Reference using Python (BS4, requests, pandas) and stored in CSV format. Key findings include an increase in lead sizes over the years without a corresponding increase in lead safety, likely due to the modern era's high-scoring games. Tools like Python (pandas, numpy, matplotlib) and Jupyter Notebook were used for data preprocessing, exploratory analysis, visualization, and statistical testing (e.g., T-tests) to identify significant trends and anomalies in specific seasons, such as 2016 and 2018.
+
+
 
 ## How to Run
 Provide instructions on how to set up and run the project:
