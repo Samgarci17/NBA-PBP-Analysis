@@ -29,6 +29,6 @@ This analysis of NBA playoffs play-by-play data (1997–2024) examines trends in
 
 
 
-![NBA Playoff Trends Visualization](images/playoff_trends.png "Visualization of playoff trends")
+![NBA Playoff Trends Visualization](https://github.com/user-attachments/assets/a0a762e5-13e6-41bd-a327-d02c575c7a08 "Visualization of playoff trends")
 
 
